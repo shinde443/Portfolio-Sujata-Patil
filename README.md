@@ -1,7 +1,7 @@
 # Portfolio-Sujata-Patil
 
 ## About Me
-Hello! I am Sujata Patil, a Computer Science student passionate about programming and web development.
+Hello! I am Sujata Shinde, a Computer Science student passionate about programming and web development.
 
 ## Skills
 - C Programming
