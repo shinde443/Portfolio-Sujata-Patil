@@ -28,7 +28,7 @@
                 <h1>Hey, I'm <span>Shinde Sujata</span> <br>from Latur</h1>
 
                 <!--button-->
-                <a href="#" class="btn">Hire Me</a>
+                <a href="#contact" class="btn">Hire Me</a>
                 <a href="./Suajta patil Resume.pdf.pdf" class="btn btn2">Download CV</a>
             </div>
 
@@ -40,27 +40,29 @@
     <!--about section-->
     <div id="about">
         <div class="container">
-            <div class="row">
+            <h1 class="sub-title">About Me</h1>
+            <div class="row">  
                 <div class="about-col-1">
-                    <img src="./WhatsApp Image 2026-04-18 at 8.00.49 PM.jpeg" alt="" >
+                    <img src="./images/sujata.jpg">
                 </div>
                 <div class="about-col-2">
-                    <h1 class="sub-title">About me</h1>
-                    <p>✨ I am a passionate and creative fresher who loves building beautiful and user-friendly websites. 
-                        With a strong foundation in HTML, CSS, and JavaScript, I enjoy turning ideas into reality through code.
-                      🚀 I am a quick learner, always exploring new technologies and improving my skills. 
-                       I believe in continuous growth and aim to contribute my best to every project I work on. 
-                      💻 I am looking for an opportunity to start my career in web development and grow as a professional developer.</p>
+                    <!-- <h1 class="sub-title">About me</h1> -->
+                     
+                    <p>✨ I am a passionate and detail-oriented fresher
+                         with a strong interest in Software Testing and Quality Assurance.
+                          I have knowledge of Manual Testing, Test Case Design, Bug Reporting, HTML, CSS, JavaScript, and SQL.
+                           I enjoy identifying defects, ensuring software quality, and continuously learning new technologies.
+                            I am looking for an opportunity to start my career in Software Testing and contribute to delivering high-quality software products.</p>
                     <div class="tab-title">
                         <p class="tab-links active-links" onclick="opentab('Skills',this)">Skills</p>
                         <p class="tab-links" onclick="opentab('education',this)">Education</p>
                     </div>
                     <div class="tab-content active-tab" id="Skills">
                         <ul>
-                            <li><span>💻 HTML</span><br>Basic structure of web pages.</li>
-                            <li><span>🎨 CSS</span><br>Design and styling of websites.</li>
-                            <li><span>⚡ JavaScript</span><br>Adds interactivity to web pages.</li>
-                            <li><span>🧠 Problem Solving</span><br>Ability to find simple and effective solutions.</li>
+                            <li><span>🧪 Manual Testing</span><div class="progress"><div class="progress-bar" style="width: 85%"></div></div>Executing test cases and identifying defects.</li>
+                            <li><span>📋Test Case Design</span><br><div class="progress"><div class="progress-bar" style="width: 80%"></div></div>Creating effective test scenario.</li>
+                            <li><span>🗄️ SQL</span><br><div class="progress"><div class="progress-bar" style="width: 70%"></div></div>Basic database queries and validation.</li>
+                            <li><span>💻HTML & CSS</span><br><div class="progress"><div class="progress-bar" style="width: 85%"></div></div>Web structure and styling.</li>
                         </ul>
                     </div>
                     
@@ -73,8 +75,6 @@
                         </ul>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </div>
@@ -86,24 +86,24 @@
             <div class="services-list">
                 <div>
                     <!-- <i class="fa-solid fa-code"></i> -->
-                    <img src="https://static.vecteezy.com/system/resources/thumbnails/022/483/316/small/modern-3d-chef-with-tablet-ideal-for-online-cooking-classes-or-recipe-apps-transparent-background-free-png.png" class="project_img">
-                    <h2> Recipes Web Design</h2>
+                    <img src="./images/recipe.jpg" class="project_img">
+                    <h2> Maharatrian Web Application</h2>
                     <p>Designed and developed a responsive recipe website using HTML,CSS,Bootstrap and Javascript.The websites allows users to browse different recipes with attractive UI cards,view ingredients,and follow step-by-step cooking instruction.Implemented responsive design to ensure compatibility across device.</p>
-                    <a href="#">learn more</a>
+                    <a href="https://github.com/shinde443/Maharatrian_web_PROJECT.git">🔗GitHub Repo</a>
                 </div>
                 <div>
                     <!-- <i class="fa-brands fa-app-store-ios"></i> -->
-                    <img src="https://t.pimg.jp/087/461/357/5/87461357.jpg" class="project_img">
+                    <img src="./images/women.png" class="project_img">
                     <h2> Women Safety App Devlopment</h2>
                     <p>Created an Andriod-based Women Safety application that helps users and instant alerts and share live location in emergency situation using GPS and SOS functionality.</p>
-                    <a href="#">learn more</a>
+                    <a href="https://github.com/shinde443/Women-Safety-App.git">🔗GitHub Repo</a>
                 </div>
                 <div>
                     <!-- <i class="fa-brands fa-app-store-ios"></i> -->
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEUcxN3lEULuU-lWaBFD-NO5RXsZICsqTwPA&s" class="project_img">
+                    <img src="./images/quiz.jpg" class="project_img">
                     <h2> Quize Management App </h2>
                     <p>Created a quiz application using HTML,CSS,Javascript,and database integration where users can attempt quizzes,and the system evaluates and displays result dynamically.</p>
-                    <a href="#">learn more</a>
+                    <a href="#"></a>
                 </div>
 
 
@@ -150,23 +150,6 @@
         </div>
       </div>
 
-    <script>
-        
-function opentab(tabname, element) {
-  var tablinks = document.getElementsByClassName("tab-links");
-  var tabcontents = document.getElementsByClassName("tab-content");
-
-  for (let tablink of tablinks) {
-    tablink.classList.remove("active-links");
-  }
-
-  for (let tabcontent of tabcontents) {
-    tabcontent.classList.remove("active-tab");
-  }
-
-  element.classList.add("active-links");
-  document.getElementById(tabname).classList.add("active-tab");
-}
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

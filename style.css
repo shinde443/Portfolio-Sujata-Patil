@@ -187,6 +187,7 @@ nav ul li a:hover::after{
   height: 400px;
   border-radius: 25px;
   object-fit: cover;
+  margin-top: 35px;
   box-shadow: 0px 0px 25px rgba(4, 172, 29, 0.3);
 
 }
@@ -202,7 +203,10 @@ nav ul li a:hover::after{
     font-size: 60px;
     font-weight:600 ;
     color: white;
+    
+    
 }
+
 .tab-title{
     display: flex;
     margin: 20px 0 40px;
@@ -245,6 +249,18 @@ nav ul li a:hover::after{
 }
 .tab-content.active-tab{
     display: block;
+}
+.progress{
+    width: 250px;
+    height: 8px;
+    background: #333;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.progress-bar{
+    height: 100%;
+    background: #ff4d6d;
+    border-radius: 10px;
 }
 
 
